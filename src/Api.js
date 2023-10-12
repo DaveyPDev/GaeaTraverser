@@ -1,13 +1,13 @@
-const OPENWEATHER_API_KEY = '2bdb00a59d61be4d07564ba927191277';
+const OPENWEATHER_API_KEY = 'NA';
 const WEATHER_API_URL = `https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=${OPENWEATHER_API_KEY}`;
 
 
 const GEOCODING_API_URL = 'http://api.openweathermap.org/geo/1.0';
 
-const GOOGLE_API_KEY = 'AIzaSyDphv5yJzdqL3okfU6nufflGcUOyqwEi6U';
+const GOOGLE_API_KEY = 'NA';
 const MAPS_API_URL = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}&callback=initMap`;
 
-const TRIPADVISOR_API_KEY = '03C6A75A637A4EB4AC8DF557C31FE43A';
+const TRIPADVISOR_API_KEY = 'NA';
 const SEARCH_API_URL = 'https://api.content.tripadvisor.com/api/v1/location/search';
 const DETAILS_API_URL = 'https://api.content.tripadvisor.com/api/v1/location/{locationId}/details';
 const PHOTOS_API_URL = 'https://api.content.tripadvisor.com/api/v1/location/{locationId}/photos';
